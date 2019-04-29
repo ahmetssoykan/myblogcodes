@@ -48,9 +48,9 @@ app.get('/getPosts/:title', function(req, res){
     var pool = mysql.createPool({
         connectionLimit: 10,
         timeout: 60 * 60 * 1000,
-        host: '185.106.211.51',
-        user: 'asoyk_sa',
-        password: 'boy1whoSquat',
+        host: 'localhost',
+        user: 'sa',
+        password: 'pass',
         database: 'asoykan'
     })
     
